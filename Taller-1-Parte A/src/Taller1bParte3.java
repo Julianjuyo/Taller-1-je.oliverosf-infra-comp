@@ -11,10 +11,11 @@ public class Taller1bParte3 extends Thread {
 
 	private static int[][] matriz = new int[DIM][DIM];
 
-	private static int mayor = -1;
+	private static Maximo mayor = new Maximo() ;
+	
 
 	private  int mayorFila = -1;
-
+	
 	private  int idThread ;
 
 	private  int fila ;

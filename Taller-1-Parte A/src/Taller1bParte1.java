@@ -14,7 +14,8 @@ public class Taller1bParte1 {
 	}
 	
 	public static void main(String[] args) {
-		
+
+
 		Taller1bParte1 c = new Taller1bParte1();
 		
 		for (int i = 0; i < 1000; i++) {
@@ -22,6 +23,8 @@ public class Taller1bParte1 {
 		}
 		
 		System.out.println(c.getContador());
+		
+
 	}
 
 }
